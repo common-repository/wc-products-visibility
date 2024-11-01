@@ -1,0 +1,476 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-10-30 19:55-0700\n"
+"PO-Revision-Date: 2021-04-03 12:44-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/WC/Admin/Form/Form.php:736
+msgid "Hard crop?"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:790
+msgid "Choose a country&hellip;"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:790 includes/WC/Admin/Form/Form.php:815
+msgid "Country"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:815
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:823
+msgid "Select all"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:823
+msgid "Select none"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:832
+msgid "Day(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:833
+msgid "Week(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:834
+msgid "Month(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/Form.php:835
+msgid "Year(s)"
+msgstr ""
+
+#: includes/WC/Admin/Form/FormFilter.php:139
+msgid " is invalid"
+msgstr ""
+
+#: includes/WC/Admin/PageForm/AbstractPageForm.php:266
+msgid "Form data have been successfully saved"
+msgstr ""
+
+#: includes/WC/Admin/PageForm/AbstractPageForm.php:276
+msgid "Unable to save form data"
+msgstr ""
+
+#: includes/WC/Options/UserRoles.php:21
+msgid "Guest (Not Logged In)"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:53
+msgid "Visibility when conditions have matched"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:61
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:104
+msgid "Catalog Visibility"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:68
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:111
+msgid "Variation Visibility"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:75
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:118
+msgid "Product URL Visibility"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:84
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:127
+msgid "Search Engines Visibility"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:96
+msgid "Visibility when conditions have not matched"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:150
+msgid "Keep as is"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:151
+msgid "Visible"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/ActionFormFields.php:152
+msgid "Hidden"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:117
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:169
+msgid "Enabled"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:118
+msgid "This rule will be evaluated only when it is enabled"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:125
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:174
+msgid "Priority"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:126
+msgid "Rules are executed in ascending priority order"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:136
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:179
+msgid "Name"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:137
+msgid "Name is used to help to easily identify this rule"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:153
+msgid "Conditions"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:171
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:129
+msgid "Save Changes"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/EditRuleForm.php:197
+msgid "Rule have been successfully saved"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:82
+msgid "Debug"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:89
+msgid "Do you experience any issues?"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:90
+msgid "Enable a debug mode, reproduce the issue, while recording screen with"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:91
+msgid "then"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:93
+msgid "click to download a log file"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:94
+msgid "and send it via our"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:96
+msgid "contact form"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:97
+msgid "with the detailed description of the issue"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:103
+msgid "Use Cache"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:107
+msgid "Caching improves performance of rules matching by storing previous match result and using it instead of matching every single rule every time website is requested."
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:111
+msgid "Cache Expiration (secs)"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:119
+msgid "Rules matching results will be cached for a given amount of seconds and invalidated after that time."
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/GeneralForm.php:155
+msgid "Settings have been successfully saved"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:60
+msgid "JSON File to Import"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:61
+msgid "Choose a file to import?"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:63
+msgid "Previously exported JSON file to import?"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:73
+msgid "Import"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:123
+msgid "File has been successfully imported!"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/JsonFileImportForm.php:133
+msgid "Unable to import from the uploaded file!"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:91
+msgid "Product"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:92
+#: includes/WC/Rule/ConditionDefinition/Products.php:51
+msgid "Products"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:125
+msgid "Enable"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:130
+msgid "Disable"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable.php:135
+msgid "Delete"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable/BulkActionHandler/DeleteHandler.php:77
+msgid "Rules have been successfully deleted"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable/BulkActionHandler/DeleteHandler.php:80
+msgid "Failed to delete some of the rules"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable/BulkActionHandler/UpdateEnabledHandler.php:87
+msgid "Rules have been successfully updated"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/RulesTable/BulkActionHandler/UpdateEnabledHandler.php:90
+msgid "Failed to update some of the rules"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:216
+msgid "General Settings"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:243
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:245
+msgid "Rules"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:248
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:294
+msgid "Add Rule"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:252
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:322
+msgid "Import Rules"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Admin/SettingsPage.php:292
+msgid "Edit Rule"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Plugin.php:190
+msgid "Requires"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Plugin.php:192
+msgid "PRO Version"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Plugin.php:230
+msgid "Settings"
+msgstr ""
+
+#: includes/WC/ProductsVisibility/Plugin.php:442
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/AbstractOptionsConditionDefinition.php:67
+msgid "Condition"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/AbstractOptionsConditionDefinition.php:70
+msgid "Any have to match"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/AbstractOptionsConditionDefinition.php:71
+msgid "All have to match"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/AbstractOptionsConditionDefinition.php:81
+#: includes/WC/Rule/ConditionDefinition/AbstractOptionsOrConditionDefinition.php:68
+msgid "Empty value means that this condition is not going to be considered"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/Attributes.php:52
+msgid "Attributes"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/Categories.php:51
+msgid "Categories"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/DisabledVariation.php:75
+#: includes/WC/Rule/ConditionDefinition/DisabledVariation.php:78
+msgid "Disabled Variation"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/DisabledVariation.php:76
+msgid "Matches disabled product variations"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/FromDate.php:84
+#: includes/WC/Rule/ConditionDefinition/FromDate.php:87
+msgid "From Date"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/FromTime.php:75
+#: includes/WC/Rule/ConditionDefinition/FromTime.php:77
+msgid "From Time"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/LowStock.php:75
+msgid "Low Stock"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/LowStock.php:76
+msgid "Matches products with the stock quantity below low stock threshold"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/LowStock.php:78
+msgid "Lock Stock"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/OnBackorder.php:75
+#: includes/WC/Rule/ConditionDefinition/OnBackorder.php:78
+msgid "On Backorder"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/OnBackorder.php:76
+msgid "Matches products that are currently on backorder"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/OnSale.php:75
+#: includes/WC/Rule/ConditionDefinition/OnSale.php:78
+msgid "On Sale"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/OnSale.php:76
+msgid "Matches products that are currently on sale"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/ProductTypes.php:51
+msgid "Product Types"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/ShippingClasses.php:51
+msgid "Shipping Classes"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/StockQuantityBelow.php:75
+#: includes/WC/Rule/ConditionDefinition/StockQuantityBelow.php:79
+msgid "Stock Quantity Below"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/StockStatus.php:75
+#: includes/WC/Rule/ConditionDefinition/StockStatus.php:82
+msgid "Stock Status"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/StockStatus.php:77
+msgid "Any"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/StockStatus.php:78
+msgid "In Stock"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/StockStatus.php:79
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/Tags.php:51
+msgid "Tags"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/Taxonomies.php:51
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/ToDate.php:84
+#: includes/WC/Rule/ConditionDefinition/ToDate.php:87
+msgid "To Date"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/ToTime.php:75
+#: includes/WC/Rule/ConditionDefinition/ToTime.php:77
+msgid "To Time"
+msgstr ""
+
+#: includes/WC/Rule/ConditionDefinition/UserRoles.php:51
+msgid "User Roles"
+msgstr ""
+
+#: includes/WP/Admin/Notices/Notices.php:314
+msgid "Dismiss"
+msgstr ""
+
+#: includes/WP/Admin/Table/AbstractTable.php:127
+msgid "Nothing has been found"
+msgstr ""
+
+#: includes/WP/PluginDependency/PluginDependency.php:107
+msgid "requires the following plugins to be installed and activated:"
+msgstr ""
+
+#: wc-products-visibility.php:33 wc-products-visibility.php:36
+#: wc-products-visibility.php:52
+msgid "Products and Variations Visibility"
+msgstr ""
+
+#: wc-products-visibility.php:37
+msgid "Let's you define rules when products and variations are visible or hidden"
+msgstr ""
+
+#: wc-products-visibility.php:39
+msgid "Do you have any questions or requests?"
+msgstr ""
+
+#: wc-products-visibility.php:41
+msgid "Do you like our plugin and can recommend it to others?"
+msgstr ""
+
+#: wc-products-visibility.php:53
+msgid "plugin can not be loaded."
+msgstr ""
+
+#: wc-products-visibility.php:54
+msgid "Please contact"
+msgstr ""
+
+#: wc-products-visibility.php:56
+msgid "1TeamSoftware support"
+msgstr ""
+
+#: wc-products-visibility.php:57
+msgid "for assistance."
+msgstr ""

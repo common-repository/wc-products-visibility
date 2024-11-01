@@ -1,0 +1,1307 @@
+{
+    "packages": [
+        {
+            "name": "oneteamsoftware/gitlab-ci-for-wordpress-plugin",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/gitlab-ci-for-wordpress-plugin.git",
+                "reference": "666f997193135b285f5cb4c9dbef22303792302e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fgitlab-ci-for-wordpress-plugin/repository/archive.zip?sha=666f997193135b285f5cb4c9dbef22303792302e",
+                "reference": "666f997193135b285f5cb4c9dbef22303792302e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "time": "2023-01-17T20:24:33-08:00",
+            "type": "gitlab-ci-for-wordpress-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": []
+            },
+            "autoload-dev": {
+                "psr-4": []
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "GitLab CI/CD pipeline for WordPress plugin",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/gitlab-ci-for-wordpress-plugin/-/tree/1.0.3",
+                "issues": "https://gitlab.com/oneteamsoftware/gitlab-ci-for-wordpress-plugin/-/issues"
+            },
+            "install-path": "../oneteamsoftware/gitlab-ci-for-wordpress-plugin"
+        },
+        {
+            "name": "oneteamsoftware/php-autoloader",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-autoloader.git",
+                "reference": "84e9d1d832fb4d63dd149efcfb4424a617ea640e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-autoloader/repository/archive.zip?sha=84e9d1d832fb4d63dd149efcfb4424a617ea640e",
+                "reference": "84e9d1d832fb4d63dd149efcfb4424a617ea640e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-10-19T19:28:33-07:00",
+            "type": "php-autoloader",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Autoloads php code and supports phar",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-autoloader/-/tree/1.0.1",
+                "issues": "https://gitlab.com/oneteamsoftware/php-autoloader/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-autoloader"
+        },
+        {
+            "name": "oneteamsoftware/php-cache",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-cache.git",
+                "reference": "3ff1c3fc2405adee917d564ccfe74cdab3084fb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-cache/repository/archive.zip?sha=3ff1c3fc2405adee917d564ccfe74cdab3084fb8",
+                "reference": "3ff1c3fc2405adee917d564ccfe74cdab3084fb8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-06-19T17:20:53-07:00",
+            "type": "php-cache",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Adds ability to cache data in a few various ways",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-cache/-/tree/1.0.3",
+                "issues": "https://gitlab.com/oneteamsoftware/php-cache/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-cache"
+        },
+        {
+            "name": "oneteamsoftware/php-logger",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-logger.git",
+                "reference": "b55bb398c5922009bab6a8bb8a7dbd2722dbbf0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-logger/repository/archive.zip?sha=b55bb398c5922009bab6a8bb8a7dbd2722dbbf0d",
+                "reference": "b55bb398c5922009bab6a8bb8a7dbd2722dbbf0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-10-16T19:58:21-07:00",
+            "type": "php-logger",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Framework that helps to log what is going on in your code",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-logger/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/php-logger/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-logger"
+        },
+        {
+            "name": "oneteamsoftware/php-mutex",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-mutex.git",
+                "reference": "a81c34495283b9848782b492a91b75689321a998"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-mutex/repository/archive.zip?sha=a81c34495283b9848782b492a91b75689321a998",
+                "reference": "a81c34495283b9848782b492a91b75689321a998",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-12-11T20:07:31-08:00",
+            "type": "php-mutex",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Mutex library",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-mutex/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/php-mutex/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-mutex"
+        },
+        {
+            "name": "oneteamsoftware/php-rule",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-rule.git",
+                "reference": "4e0568ecd34a3ca5d018a704cae92f5e879fd486"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-rule/repository/archive.zip?sha=4e0568ecd34a3ca5d018a704cae92f5e879fd486",
+                "reference": "4e0568ecd34a3ca5d018a704cae92f5e879fd486",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-logger": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-12-14T20:05:30-08:00",
+            "type": "php-rule",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "cp vendor/dmitryrechkin/php-standard/php-standard.xml phpcs.xml"
+                ]
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Rules framework",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-rule/-/tree/1.0.4",
+                "issues": "https://gitlab.com/oneteamsoftware/php-rule/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-rule"
+        },
+        {
+            "name": "oneteamsoftware/php-wc-admin-form",
+            "version": "1.0.8",
+            "version_normalized": "1.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wc-admin-form.git",
+                "reference": "31d8e091275ad415db761ce4d07832ae5919e89d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wc-admin-form/repository/archive.zip?sha=31d8e091275ad415db761ce4d07832ae5919e89d",
+                "reference": "31d8e091275ad415db761ce4d07832ae5919e89d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-10-21T12:44:49-07:00",
+            "type": "php-wc-admin-form",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Form for WooCommerce Admin",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wc-admin-form/-/tree/1.0.8",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wc-admin-form/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wc-admin-form"
+        },
+        {
+            "name": "oneteamsoftware/php-wc-admin-logexporter",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wc-admin-logexporter.git",
+                "reference": "835751c837a83f4e90daebc6f6989522b829c5a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wc-admin-logexporter/repository/archive.zip?sha=835751c837a83f4e90daebc6f6989522b829c5a1",
+                "reference": "835751c837a83f4e90daebc6f6989522b829c5a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-09-21T21:34:25-07:00",
+            "type": "php-wc-admin-logexporter",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Log Exporter for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wc-admin-logexporter/-/tree/1.0.3",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wc-admin-logexporter/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wc-admin-logexporter"
+        },
+        {
+            "name": "oneteamsoftware/php-wc-admin-pageform",
+            "version": "1.0.7",
+            "version_normalized": "1.0.7.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wc-admin-pageform.git",
+                "reference": "c5502b9919032776bfb26636b346870cd294b889"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wc-admin-pageform/repository/archive.zip?sha=c5502b9919032776bfb26636b346870cd294b889",
+                "reference": "c5502b9919032776bfb26636b346870cd294b889",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-wc-admin-form": "~1.0.0",
+                "oneteamsoftware/php-wp-admin-notices": "~1.0.0",
+                "oneteamsoftware/php-wp-admin-page": "~1.0.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-08-08T12:29:12-07:00",
+            "type": "php-wc-admin-pageform",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Admin form page for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wc-admin-pageform/-/tree/1.0.7",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wc-admin-pageform/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wc-admin-pageform"
+        },
+        {
+            "name": "oneteamsoftware/php-wc-logger",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wc-logger.git",
+                "reference": "1629eaa659ad444c394a1f4046355f2a152e6b1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wc-logger/repository/archive.zip?sha=1629eaa659ad444c394a1f4046355f2a152e6b1e",
+                "reference": "1629eaa659ad444c394a1f4046355f2a152e6b1e",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-logger": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-07-01T11:33:17-07:00",
+            "type": "php-wc-logger",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Logger for WooCommerce",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wc-logger/-/tree/1.0.2",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wc-logger/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wc-logger"
+        },
+        {
+            "name": "oneteamsoftware/php-wc-rule",
+            "version": "1.0.9",
+            "version_normalized": "1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wc-rule.git",
+                "reference": "9ee874e4d29119b199078a8f0e5a55be3a235779"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wc-rule/repository/archive.zip?sha=9ee874e4d29119b199078a8f0e5a55be3a235779",
+                "reference": "9ee874e4d29119b199078a8f0e5a55be3a235779",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-cache": "~1.0.0",
+                "oneteamsoftware/php-logger": "~1.0.0",
+                "oneteamsoftware/php-rule": ">=1.0.1",
+                "oneteamsoftware/php-wp-cache-storage": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0",
+                "dmitryrechkin/php-wp-phpunit-bootstrap": "^1.0"
+            },
+            "time": "2023-08-26T21:41:16-07:00",
+            "type": "php-wc-rule",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "cp vendor/dmitryrechkin/php-standard/php-standard.xml phpcs.xml"
+                ]
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Rules for WooCommerce",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wc-rule/-/tree/1.0.9",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wc-rule/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wc-rule"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-admin-notices",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-admin-notices.git",
+                "reference": "08aeecd8595ac23425efbdb02257764baf36030d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-admin-notices/repository/archive.zip?sha=08aeecd8595ac23425efbdb02257764baf36030d",
+                "reference": "08aeecd8595ac23425efbdb02257764baf36030d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-09-21T21:31:57-07:00",
+            "type": "php-wp-admin-notices",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Displays notices in WordPress Admin",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-admin-notices/-/tree/1.0.3",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-admin-notices/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-admin-notices"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-admin-oneteamsoftware",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-admin-oneteamsoftware.git",
+                "reference": "cd8abddd9c22b9613af4f5227444fbdfe0f184fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-admin-oneteamsoftware/repository/archive.zip?sha=cd8abddd9c22b9613af4f5227444fbdfe0f184fe",
+                "reference": "cd8abddd9c22b9613af4f5227444fbdfe0f184fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-10-21T12:55:03-07:00",
+            "type": "php-wp-admin-oneteamsoftware",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Adds 1TeamSoftware menu to WordPress Admin",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-admin-oneteamsoftware/-/tree/1.0.4",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-admin-oneteamsoftware/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-admin-oneteamsoftware"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-admin-page",
+            "version": "1.0.6",
+            "version_normalized": "1.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-admin-page.git",
+                "reference": "c3610ba1f3c1668cbe0a2f67121b856445140bb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-admin-page/repository/archive.zip?sha=c3610ba1f3c1668cbe0a2f67121b856445140bb1",
+                "reference": "c3610ba1f3c1668cbe0a2f67121b856445140bb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-01-16T19:43:54-08:00",
+            "type": "php-wp-admin-page",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Admin page for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-admin-page/-/tree/1.0.6",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-admin-page/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-admin-page"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-admin-table",
+            "version": "1.0.11",
+            "version_normalized": "1.0.11.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-admin-table.git",
+                "reference": "257a3f7279347d7050504c1e506e73e3689c0602"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-admin-table/repository/archive.zip?sha=257a3f7279347d7050504c1e506e73e3689c0602",
+                "reference": "257a3f7279347d7050504c1e506e73e3689c0602",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-wp-admin-page": "~1.0.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-08-26T18:14:27-07:00",
+            "type": "php-wp-admin-table",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Admin table for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-admin-table/-/tree/1.0.11",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-admin-table/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-admin-table"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-cache-storage",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-cache-storage.git",
+                "reference": "0a8835af09738fe20bf7da324a2ea8ee4082a637"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-cache-storage/repository/archive.zip?sha=0a8835af09738fe20bf7da324a2ea8ee4082a637",
+                "reference": "0a8835af09738fe20bf7da324a2ea8ee4082a637",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-cache": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-06-18T20:32:49-07:00",
+            "type": "php-wp-cache-storage",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Cache Storage Adapter for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-cache-storage/-/tree/1.0.3",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-cache-storage/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-cache-storage"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-itemsstorage",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-itemsstorage.git",
+                "reference": "a09609d888cb6943b8c3296ef4275524dcc83397"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-itemsstorage/repository/archive.zip?sha=a09609d888cb6943b8c3296ef4275524dcc83397",
+                "reference": "a09609d888cb6943b8c3296ef4275524dcc83397",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-wp-settingsstorage": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-12-13T19:37:35-08:00",
+            "type": "php-wp-itemsstorage",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Items Storage for Settings Storage for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-itemsstorage/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-itemsstorage/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-itemsstorage"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-oneteamsoftware-autoloader",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-oneteamsoftware-autoloader.git",
+                "reference": "07585ab47cc1551702a0f40678103bbc9b7d1aa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-oneteamsoftware-autoloader/repository/archive.zip?sha=07585ab47cc1551702a0f40678103bbc9b7d1aa1",
+                "reference": "07585ab47cc1551702a0f40678103bbc9b7d1aa1",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-autoloader": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-11-06T11:56:25-08:00",
+            "type": "php-wp-oneteamsoftware-autoloader",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Configures autoloader for WP plugins",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-oneteamsoftware-autoloader/-/tree/1.0.1",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-oneteamsoftware-autoloader/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-oneteamsoftware-autoloader"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-plugindependency",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-plugindependency.git",
+                "reference": "05b52019a3aae823bd0416e0a05697747c4afa8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-plugindependency/repository/archive.zip?sha=05b52019a3aae823bd0416e0a05697747c4afa8f",
+                "reference": "05b52019a3aae823bd0416e0a05697747c4afa8f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-01-12T19:25:59-08:00",
+            "type": "php-wp-plugindependency",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Plugin Dependency Manager for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-plugindependency/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-plugindependency/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-plugindependency"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-pluginlife-client",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-pluginlife-client.git",
+                "reference": "128c63fb3ffad8f09a77d4216d9fd285cdb8ac2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-pluginlife-client/repository/archive.zip?sha=128c63fb3ffad8f09a77d4216d9fd285cdb8ac2f",
+                "reference": "128c63fb3ffad8f09a77d4216d9fd285cdb8ac2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-01-26T18:54:14-08:00",
+            "type": "php-wp-pluginlife-client",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2024 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "WordPress Client for PluginLife Server",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-pluginlife-client/-/tree/1.0.4",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-pluginlife-client/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-pluginlife-client"
+        },
+        {
+            "name": "oneteamsoftware/php-wp-settingsstorage",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/php-wp-settingsstorage.git",
+                "reference": "06eb9fb209395a97cb8a4f205cbb4869d9403728"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fphp-wp-settingsstorage/repository/archive.zip?sha=06eb9fb209395a97cb8a4f205cbb4869d9403728",
+                "reference": "06eb9fb209395a97cb8a4f205cbb4869d9403728",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/php-mutex": "~1.0.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2022-12-11T20:43:46-08:00",
+            "type": "php-wp-settingsstorage",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "DmitryRechkin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Settings Storage for WordPress",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/php-wp-settingsstorage/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/php-wp-settingsstorage/-/issues"
+            },
+            "install-path": "../oneteamsoftware/php-wp-settingsstorage"
+        },
+        {
+            "name": "oneteamsoftware/wc-products-visibility-pro",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:oneteamsoftware/wc-products-visibility-pro.git",
+                "reference": "a6b5e9ece14e3be4f8f9d9277cf57df24ab2facf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/oneteamsoftware%2Fwc-products-visibility-pro/repository/archive.zip?sha=a6b5e9ece14e3be4f8f9d9277cf57df24ab2facf",
+                "reference": "a6b5e9ece14e3be4f8f9d9277cf57df24ab2facf",
+                "shasum": ""
+            },
+            "require": {
+                "oneteamsoftware/gitlab-ci-for-wordpress-plugin": "~1.0.0",
+                "oneteamsoftware/php-mutex": "~1.0.0",
+                "oneteamsoftware/php-rule": "~1.0.0",
+                "oneteamsoftware/php-wc-admin-logexporter": "~1.0.0",
+                "oneteamsoftware/php-wc-admin-pageform": "~1.0.0",
+                "oneteamsoftware/php-wc-logger": "~1.0.0",
+                "oneteamsoftware/php-wc-rule": ">=1.0.1",
+                "oneteamsoftware/php-wp-admin-notices": "~1.0.0",
+                "oneteamsoftware/php-wp-admin-oneteamsoftware": "~1.0.0",
+                "oneteamsoftware/php-wp-admin-page": "~1.0.0",
+                "oneteamsoftware/php-wp-admin-table": "~1.0.0",
+                "oneteamsoftware/php-wp-cache-storage": "~1.0.0",
+                "oneteamsoftware/php-wp-itemsstorage": "~1.0.0",
+                "oneteamsoftware/php-wp-oneteamsoftware-autoloader": "~1.0.0",
+                "oneteamsoftware/php-wp-plugindependency": "~1.0.0",
+                "oneteamsoftware/php-wp-pluginlife-client": "~1.0.0",
+                "oneteamsoftware/php-wp-settingsstorage": "~1.0.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+                "dmitryrechkin/php-standard": "^1.0"
+            },
+            "time": "2023-01-15T21:01:36-08:00",
+            "type": "wc-products-visibility-pro",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneTeamSoftware\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OneTeamSoftware\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "rm -rf assets",
+                    "rm -rf includes",
+                    "rm -rf templates",
+                    "mkdir -p assets",
+                    "mkdir -p includes",
+                    "mkdir -p templates",
+                    "cp -r vendor/oneteamsoftware/gitlab-ci-for-wordpress-plugin/src/.gitlab-ci.yml . 2>/dev/null || :",
+                    "rm -rf vendor/oneteamsoftware/gitlab-ci-for-wordpress-plugin/ 2>/dev/null || :",
+                    "cp -r vendor/oneteamsoftware/*/src/assets/* assets/ 2>/dev/null || :",
+                    "rm -rf vendor/oneteamsoftware/*/src/assets",
+                    "cp -r vendor/oneteamsoftware/*/src/templates/* templates/ 2>/dev/null || :",
+                    "rm -rf vendor/oneteamsoftware/*/src/templates",
+                    "cp -r vendor/oneteamsoftware/*/src/* includes/ 2>/dev/null || :",
+                    "rm -rf vendor/oneteamsoftware/",
+                    "cp -r src/* includes/ 2>/dev/null || :",
+                    "rm -rf includes/assets 2>/dev/null || :",
+                    "cp -rf src/assets/* assets/ 2>/dev/null || :",
+                    "cp includes/autoloader.php src/ 2>/dev/null || :",
+                    "cp vendor/dmitryrechkin/php-standard/php-standard.xml phpcs.xml 2>/dev/null || :"
+                ]
+            },
+            "license": [
+                "Copyright: © 2022 FlexRC, Canada. Any usage / copying / extension or modification without prior authorization is prohibited."
+            ],
+            "authors": [
+                {
+                    "name": "OneTeamSoftware",
+                    "email": "info@1teamsoftware.com",
+                    "homepage": "https://1teamsoftware.com"
+                }
+            ],
+            "description": "Ability to define conditions when products and variations are visible or hidden",
+            "support": {
+                "source": "https://gitlab.com/oneteamsoftware/wc-products-visibility-pro/-/tree/1.0.0",
+                "issues": "https://gitlab.com/oneteamsoftware/wc-products-visibility-pro/-/issues"
+            },
+            "install-path": "../oneteamsoftware/wc-products-visibility-pro"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

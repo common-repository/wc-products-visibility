@@ -1,0 +1,8 @@
+.notice:not(.oneteamsoftware,#wc-products-visibility-general_box),
+.is-dismissible:not(#woocommerce_errors),
+.woocommerce-message:not(.oneteamsoftware),
+.updated:not(.oneteamsoftware),
+.error:not(.oneteamsoftware,#wc-products-visibility-general_box),
+.promotion:not(.oneteamsoftware) {
+	display: none !important;
+}
